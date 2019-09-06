@@ -7,12 +7,13 @@
         body {
             background-color: rgba(125, 63, 22, 0.472);
             text-align: center;
-            max-width: 500px;
+            max-width: 1000px;
+            max-height: 1000px;
 
-            margin-left: -100px; /* Half of width */
-            margin-top: -100px; /* Half of height */
+            margin-left: -100px; 
+            margin-top: -100px;
             position: absolute; left: 50%; top: 50%;
-            transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); 
         }
 
         h1 {
@@ -38,7 +39,7 @@
         }
 
         .topnav li {
-            display: inline;            
+            display: inline;        
         }
 
         .topnav a {
@@ -53,9 +54,16 @@
 
         }
         
-        @media (max-width:500px) {
+        @media (max-width:550px) {
 
             ul.topnav li {float: none;}
+
+            body{
+                margin-left: 0px; 
+                margin-top: 50px;
+                position: absolute; left: 50%; top: 50%;
+                transform: translate(-50%, -50%); 
+            }
 
         }
 
@@ -63,7 +71,7 @@
     </head>
     <body>
     
-        <img id="image" class="image" src="https://blueurpi.com/wp-content/uploads/2016/08/Fondo-Cafe-Laptop-Lentes.jpg" alt="Smiley face">
+        <img class="image" src="https://blueurpi.com/wp-content/uploads/2016/08/Fondo-Cafe-Laptop-Lentes.jpg" alt="Smiley face">
 
         <hr>
 
@@ -81,7 +89,9 @@
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+        <table>
 
+        </table>
         
         <hr>
        
