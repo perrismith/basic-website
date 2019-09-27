@@ -1,4 +1,4 @@
 # basic-website
 Simple About Me Website
 
-![Screenshot](aboutme.?raw=true "Screenshot")
+![Screenshot](aboutme.png?raw=true "Screenshot")
